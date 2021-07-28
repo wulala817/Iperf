@@ -1,0 +1,17 @@
+------------------------------------------------------------
+Server listening on TCP port 5002
+------------------------------------------------------------
+Client connecting to ::1, TCP port 5002
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local ::1 port 35218 connected with ::1 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-1.00 sec  7.27 GBytes  62.5 Gbits/sec
+[  1] 1.00-2.00 sec  7.40 GBytes  63.5 Gbits/sec
+[  1] 0.00-2.01 sec  14.7 GBytes  62.6 Gbits/sec
+[  1] local ::1 port 5002 connected with ::1 port 35218
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-1.00 sec  7.27 GBytes  62.5 Gbits/sec
+[  1] 1.00-2.00 sec  7.40 GBytes  63.5 Gbits/sec
+[  1] 0.00-2.00 sec  14.7 GBytes  63.0 Gbits/sec
+PASS t/t2_tcp6.sh (exit status: 0)

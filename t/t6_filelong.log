@@ -1,0 +1,19 @@
+------------------------------------------------------------
+Server listening on UDP port 5006
+------------------------------------------------------------
+Client connecting to 127.0.0.1, UDP port 5006
+Sending 1470 byte datagrams, IPG target: 11760.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 41933 connected with 127.0.0.1 port 5006
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-0.31 sec  40.2 KBytes  1.08 Mbits/sec
+[  1] Sent 29 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.00-0.31 sec  40.2 KBytes  1.08 Mbits/sec   0.010 ms 0/28 (0%)
+[  1] local 127.0.0.1 port 5006 connected with 127.0.0.1 port 41933
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.00-0.31 sec  40.2 KBytes  1.08 Mbits/sec   0.011 ms 0/28 (0%)
+[  1] 0.00-0.31 sec  40.2 KBytes  1.08 Mbits/sec   0.011 ms 0/28 (0%)
+PASS t/t6_filelong.sh (exit status: 0)

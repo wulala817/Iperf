@@ -1,0 +1,17 @@
+------------------------------------------------------------
+Server listening on TCP port 5013
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5013
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 58594 connected with 127.0.0.1 port 5013 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.00-1.00 sec  6.93 GBytes  59.6 Gbits/sec
+[ *1] 1.00-2.00 sec  6.80 GBytes  58.4 Gbits/sec
+[ *1] 0.00-2.00 sec  13.7 GBytes  59.0 Gbits/sec
+[ *1] local 127.0.0.1 port 5013 connected with 127.0.0.1 port 58594 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.00-1.00 sec  6.94 GBytes  59.6 Gbits/sec
+[ *1] 1.00-2.00 sec  6.80 GBytes  58.4 Gbits/sec
+[ *1] 0.00-2.01 sec  13.7 GBytes  58.7 Gbits/sec
+PASS t/t13_reverse.sh (exit status: 0)

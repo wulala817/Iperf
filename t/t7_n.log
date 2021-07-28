@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Server listening on TCP port 5007
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5007
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 52468 connected with 127.0.0.1 port 5007
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-1.16 sec  1.00 GBytes  7.40 Gbits/sec
+[  1] 0.00-1.16 sec  1.00 GBytes  7.40 Gbits/sec
+[  1] local 127.0.0.1 port 5007 connected with 127.0.0.1 port 52468
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-0.15 sec  1.00 GBytes  58.3 Gbits/sec
+PASS t/t7_n.sh (exit status: 0)

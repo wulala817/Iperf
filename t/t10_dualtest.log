@@ -1,0 +1,36 @@
+------------------------------------------------------------
+Server listening on TCP port 5010
+------------------------------------------------------------
+Server listening on TCP port 5990
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5010
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 39870 connected with 127.0.0.1 port 5010
+[  2] local 127.0.0.1 port 5990 connected with 127.0.0.1 port 42136
+[ ID] Interval       Transfer     Bandwidth
+[  2] 0.00-1.00 sec  4.96 GBytes  42.6 Gbits/sec
+[  1] 0.00-1.00 sec  5.11 GBytes  43.9 Gbits/sec
+[  2] 1.00-2.00 sec  4.93 GBytes  42.3 Gbits/sec
+[  1] 1.00-2.00 sec  5.00 GBytes  43.0 Gbits/sec
+[  2] 0.00-2.00 sec  9.89 GBytes  42.5 Gbits/sec
+[  1] 0.00-2.01 sec  10.1 GBytes  43.1 Gbits/sec
+[  2] local 127.0.0.1 port 5010 connected with 127.0.0.1 port 39870
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5990
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[ *1] local 127.0.0.1 port 42136 connected with 127.0.0.1 port 5990 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.00-1.00 sec  4.96 GBytes  42.6 Gbits/sec
+[  2] 0.00-1.00 sec  5.11 GBytes  43.9 Gbits/sec
+[SUM] 0.00-1.00 sec  10.1 GBytes  86.5 Gbits/sec
+[ *1] 1.00-2.00 sec  4.93 GBytes  42.3 Gbits/sec
+[  2] 1.00-2.00 sec  5.00 GBytes  43.0 Gbits/sec
+[SUM] 1.00-2.00 sec  9.93 GBytes  85.3 Gbits/sec
+[ *1] 0.00-2.01 sec  9.89 GBytes  42.2 Gbits/sec
+[  2] 0.00-2.00 sec  10.1 GBytes  43.4 Gbits/sec
+[SUM] 0.00-2.00 sec  20.0 GBytes  85.9 Gbits/sec
+PASS t/t10_dualtest.sh (exit status: 0)

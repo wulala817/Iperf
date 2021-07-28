@@ -1,0 +1,13 @@
+------------------------------------------------------------
+Server listening on TCP port 5008
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5008
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 50808 connected with 127.0.0.1 port 5008
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-0.18 sec  1.00 GBytes  48.3 Gbits/sec
+[  1] local 127.0.0.1 port 5008 connected with 127.0.0.1 port 50808
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-0.17 sec  1.00 GBytes  49.7 Gbits/sec
+PASS t/t8_num.sh (exit status: 0)

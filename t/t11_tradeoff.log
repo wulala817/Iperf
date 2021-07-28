@@ -1,0 +1,35 @@
+------------------------------------------------------------
+Server listening on TCP port 5011
+------------------------------------------------------------
+Server listening on TCP port 5989
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5011
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 48228 connected with 127.0.0.1 port 5011
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-1.00 sec  6.97 GBytes  59.9 Gbits/sec
+[  1] 1.00-2.00 sec  7.16 GBytes  61.5 Gbits/sec
+[  1] 0.00-2.01 sec  14.1 GBytes  60.2 Gbits/sec
+[  2] local 127.0.0.1 port 5989 connected with 127.0.0.1 port 46758
+[ ID] Interval       Transfer     Bandwidth
+[  2] 0.00-1.00 sec  7.14 GBytes  61.3 Gbits/sec
+[  2] 1.00-2.00 sec  7.08 GBytes  60.9 Gbits/sec
+[  2] 0.00-2.00 sec  14.2 GBytes  61.1 Gbits/sec
+[  2] local 127.0.0.1 port 5011 connected with 127.0.0.1 port 48228
+[ ID] Interval       Transfer     Bandwidth
+[  2] 0.00-1.00 sec  6.97 GBytes  59.9 Gbits/sec
+[  2] 1.00-2.00 sec  7.16 GBytes  61.5 Gbits/sec
+[  2] 0.00-2.00 sec  14.1 GBytes  60.7 Gbits/sec
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5989
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[ *1] local 127.0.0.1 port 46758 connected with 127.0.0.1 port 5989 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.00-1.00 sec  7.14 GBytes  61.3 Gbits/sec
+[ *1] 1.00-2.00 sec  7.08 GBytes  60.9 Gbits/sec
+[ *1] 0.00-2.00 sec  14.2 GBytes  61.1 Gbits/sec
+PASS t/t11_tradeoff.sh (exit status: 0)

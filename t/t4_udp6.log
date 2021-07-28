@@ -1,0 +1,22 @@
+------------------------------------------------------------
+Server listening on UDP port 5004
+------------------------------------------------------------
+Client connecting to ::1, UDP port 5004
+Sending 1450 byte datagrams, IPG target: 1160.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local ::1 port 38669 connected with ::1 port 5004
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-1.00 sec  1.19 MBytes  10.0 Mbits/sec
+[  1] 1.00-2.00 sec  1.19 MBytes  10.0 Mbits/sec
+[  1] 0.00-2.00 sec  2.39 MBytes  10.0 Mbits/sec
+[  1] Sent 1729 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.00-2.00 sec  2.39 MBytes  10.0 Mbits/sec   0.000 ms 0/1728 (0%)
+[  1] local ::1 port 5004 connected with ::1 port 38669
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.00-1.00 sec  1.19 MBytes  10.0 Mbits/sec   0.001 ms 0/864 (0%)
+[  1] 1.00-2.00 sec  1.19 MBytes  10.0 Mbits/sec   0.001 ms 0/862 (0%)
+[  1] 0.00-2.00 sec  2.39 MBytes  10.0 Mbits/sec   0.001 ms 0/1728 (0%)
+PASS t/t4_udp6.sh (exit status: 0)
